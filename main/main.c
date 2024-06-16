@@ -83,9 +83,6 @@ static const struct ble_gatt_svc_def gatt_svcs[] = {
          {.uuid = BLE_UUID16_DECLARE(0xDEAD), // Define UUID for writing
           .flags = BLE_GATT_CHR_F_WRITE,
           .access_cb = device_write},
-         {.uuid = BLE_UUID16_DECLARE(0xDEAD), // Define UUID for writing
-          .flags = BLE_GATT_CHR_F_READ,
-          .access_cb = device_read2},
          {0}}},
     {0}};
 
